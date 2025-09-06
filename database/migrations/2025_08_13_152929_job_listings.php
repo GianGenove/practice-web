@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('salary');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
